@@ -52,7 +52,7 @@ If [ @IsError ]
 End If
 ```
 
-- To return a customer error, you simply replace the exit script step in the example above with the following line.
+- To return a custom error, you simply replace the exit script step in the example above with the following line.
 
 ```filemaker
 Exit Script [ Text Result: #Error.Custom ( -1 ; "Your custom error message" ) ] 

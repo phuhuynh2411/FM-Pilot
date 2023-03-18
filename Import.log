@@ -1,0 +1,11 @@
+﻿Timestamp	Filename	Error	Message
+2023-03-18 08:32:44.520 +0700	fm_pilot.fmp12	0	Import of script steps from clipboard started
+2023-03-18 08:32:44.524 +0700	Do something	0	script steps imported : 13
+2023-03-18 08:32:44.525 +0700	fm_pilot.fmp12	0	Import completed
+2023-03-18 08:45:51.662 +0700	fm_pilot.fmp12	0	Import of scripts from clipboard started
+2023-03-18 08:45:51.663 +0700	fm_pilot.fmp12	0	Script “Do something” imported as “Do something 2” since a script named “Do something” already exists.
+2023-03-18 08:45:51.663 +0700	fm_pilot.fmp12	0	Script “Auto convert para to variable” imported as “Auto convert para to variable 2” since a script named “Auto convert para to variable” already exists.
+2023-03-18 08:45:51.665 +0700	Do something 2	0	script steps imported : 13
+2023-03-18 08:45:51.667 +0700	Auto convert para to variable 2	0	script steps imported : 7
+2023-03-18 08:45:51.667 +0700	fm_pilot.fmp12	0	scripts imported : 2
+2023-03-18 08:45:51.667 +0700	fm_pilot.fmp12	0	Import completed

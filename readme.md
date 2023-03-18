@@ -124,6 +124,19 @@ $firstName
 $lastName
 ```
 
+## Adding custom message when a script parameter is missing
+
+You are now able to use a custom message returned when a script parameter is missing.
+
+```filemaker
+Set Variable [ $elementRequired ; Value: List ( #Para.MakeCustomMessage ( "firstName" ; "First name cannot be nil." ) ; "number" ; "lastName" ) ] 
+Set Variable [ $elementOptional ; Value: List ( "age" ; "" ) ] 
+If [ not @IsValid ] 
+    Exit Script [ Text Result: #LastError ] 
+End If
+```
+The default message is 'Missing parameter firstName', but for now you can use the function `#Para.MakeCustomMessage` to overwrites it, which is more friendly to users.
+
 ## Conclusion
 
 I used FM Pilot in a lot projects, and it saved a lot of development time. You can fork this repo and do whatever you want.
